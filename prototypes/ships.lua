@@ -589,14 +589,14 @@ oil_tanker.icon_size = 64
 oil_tanker.flags = {"placeable-neutral", "player-creation", "placeable-off-grid"}
 oil_tanker.allow_copy_paste = true
 oil_tanker.minable = {mining_time = 1, result = "oil_tanker"}
-oil_tanker.max_health = 5000
-oil_tanker.selection_box = {{-1.5, -8.5}, {1.5, 8.5}}
+oil_tanker.max_health = 40000
+oil_tanker.selection_box = {{-3, -17}, {3, 17}}
 oil_tanker.selection_priority = 51
 oil_tanker.collision_box = {{-1.5, -7.5}, {1.5, 7.5}}
 oil_tanker.drawing_box = {{-1, -8}, {1, 8}}
 oil_tanker.connection_distance = 3
 oil_tanker.joint_distance = 12
-oil_tanker.weight = 120000
+oil_tanker.weight = 960000
 oil_tanker.capacity = tanker_capacity * 1000
 oil_tanker.max_speed = ship_max_speed
 oil_tanker.air_resistance = 0.40
